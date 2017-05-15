@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Bank(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bank\r\n
+comment1.params=accountInput
+comment1.target=void\ addAccount(Account)
+comment1.text=\r\n\ addAccount\ will\ add\ accountInput\ to\ accounts\ in\ the\ next\ open\ space.\r\n\ Precondition\ -\ accountInput\ must\ be\ a\ vaild\ Account\ with\ a\ name,\ ID,\ and\ Money\ value.\r\n\ Postcondition\ -\ accountInput\ will\ be\ added\ to\ the\ account\ array\ in\ the\ next\ open\ space.\r\n
+comment2.params=id
+comment2.target=Account\ search(java.lang.String)
+comment2.text=\r\n\ search\ will\ return\ an\ account\ with\ the\ inputted\ id\ if\ it\ exists\ in\ the\ accounts\ array.\r\n\ \r\n\ @param\ -\ String\ id\ -\ the\ id\ of\ the\ account\ that\ will\ be\ searched\ for\ in\ the\ accounts\ array.\r\n\ @return\ -\ Account\ -\ An\ account\ object\ from\ the\ accounts\ array\ that\ has\ the\ same\ id\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ as\ the\ String\ in\ the\ parameter.\ If\ an\ account\ isn't\ found\ in\ the\ accounts\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ array\ with\ the\ same\ id\ as\ the\ String\ in\ the\ parameter,\ an\ error\ account\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ will\ be\ returned\ instead.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ new\ Account("Error",\ "Error",\ new\ Money\ (0,\ 0));\r\n
+comment3.params=id\ add
+comment3.target=void\ deposit(java.lang.String,\ Money)
+comment3.text=\r\n\ deposit\ will\ add\ the\ specified\ Money\ in\ the\ parameter\ to\ the\ Money\ in\ the\ account\ located\r\n\ \ \ \ \ \ \ \ \ in\ accounts\ that\ matches\ the\ id\ specified\ in\ the\ parameter.\r\n\ \ \ \ \ \ \ \ \ \r\n\ @param\ -\ String\ id\ -\ The\ id\ of\ the\ account\ in\ accounts\ that\ Money\ add\ should\ be\ added\ to.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ account\ in\ accounts\ doesn't\ have\ the\ same\ id,\ Money\ add\ will\ be\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ added\ to\ an\ error\ account,\ which\ won't\ exist\ after\ this\ method\ is\ ran.\r\n\ \ \ \ \ \ \ \ \ \ Money\ add\ -\ The\ amount\ of\ money\ that\ should\ be\ added\ to\ the\ account\ in\ accounts\ that\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ matches\ the\ String\ id\ in\ the\ parameter.\ If\ Money\ add\ is\ negative,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ nothing\ will\ be\ added\ to\ the\ account.\r\n
+comment4.params=id\ sub
+comment4.target=void\ withdraw(java.lang.String,\ Money)
+comment4.text=\r\n\ deposit\ will\ subtract\ the\ specified\ Money\ in\ the\ parameter\ from\ the\ Money\ in\ the\ account\ \r\n\ \ \ \ \ \ \ \ \ located\ in\ accounts\ that\ matches\ the\ id\ specified\ in\ the\ parameter.\r\n\ \ \ \ \ \ \ \ \ \r\n\ @param\ -\ String\ id\ -\ The\ id\ of\ the\ account\ in\ accounts\ that\ Money\ sub\ should\ be\ subtracted\ from.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ account\ in\ accounts\ doesn't\ have\ the\ same\ id,\ Money\ sub\ will\ be\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ subtracted\ from\ an\ error\ account,\ which\ won't\ exist\ after\ this\ method\ is\ ran.\r\n\ \ \ \ \ \ \ \ \ \ Money\ sub\ -\ The\ amount\ of\ money\ that\ should\ be\ subtracted\ from\ the\ account\ in\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ accounts\ that\ matches\ the\ String\ id\ in\ the\ parameter.\ If\ Money\ sub\ is\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ greater\ than\ the\ money\ in\ the\ account,\ nothing\ will\ taken\ out.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\ will\ return\ a\ String\ value\ with\ nameOfBank,\ numOfAccounts,\ and\ the\ details\ of\ each\r\n\ \ \ \ \ \ \ \ \ \ account\ in\ this\ Bank\ on\ separate\ lines.\r\n\ Ex.\ "BankName,\ 1\r\n\ \ \ \ \ \ 1.\ AccountName,\ 001,\ $10.00"\r\n\ @return\ \ The\ String\ value\ with\ nameOfBank,\ numOfAccounts,\ and\ the\ details\ of\ each\r\n\ \ \ \ \ \ \ \ \ \ account\ in\ this\ Bank\ on\ separate\ lines.\r\n
+numComments=6
