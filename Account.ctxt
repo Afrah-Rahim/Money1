@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=nameInput\ idInput\ balanceInput
+comment0.target=Account(java.lang.String,\ java.lang.String,\ Money)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Account\ that\ sets\ the\ name,\ ID,\ and\ balance\ of\ the\ account.\r\n
+comment1.params=other
+comment1.target=Account(Account)
+comment2.params=other
+comment2.target=void\ deposit(Money)
+comment2.text=\r\n\ deposit\ will\ add\ the\ current\ money\ in\ this.balance\ with\ the\ money\ from\ the\ parameter\ using\ the\ add\ method\ in\ Money.\r\n\ The\ Money\ object\ returned\ from\ the\ add\ method\ will\ replace\ this.balance.\ If\ Money\ other\ is\ less\ than\ $0.01,\ then\r\n\ this.balance\ won't\ be\ changed.\r\n\ \r\n\ @param\ \ \ Money\ other\ \ \ The\ money\ that\ will\ be\ added\ to\ this.balance\r\n
+comment3.params=other
+comment3.target=void\ withdraw(Money)
+comment3.text=\r\n\ withdraw\ will\ subtract\ the\ current\ money\ in\ this.balance\ with\ the\ money\ from\ the\ parameter\ using\ the\ subtract\ method\ in\ Money.\r\n\ The\ Money\ object\ returned\ from\ the\ subtract\ method\ will\ replace\ this.balance.\ If\ Money\ other\ is\ greater\ than\ this.balance,\r\n\ then\ this.balance\ won't\ be\ changed.\r\n\ \r\n\ @param\ \ \ Money\ other\ \ \ The\ money\ that\ will\ be\ subtracted\ from\ this.balance\r\n
+comment4.params=other\ cash
+comment4.target=void\ transfer(Account,\ Money)
+comment4.text=\r\n\ transfer\ will\ transfer\ money\ from\ Account\ other\ into\ this\ Account\r\n\ \r\n\ @param\ \ \ Account\ other\ \ \ The\ account\ that\ cash\ will\ be\ taken\ out\ of.\r\n\ \ \ \ \ \ \ \ \ \ Money\ cash\ \ \ \ \ \ The\ amount\ of\ money\ that\ will\ be\ taken\ out\ of\ Account\ other.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\ will\ return\ the\ name,\ id,\ and\ balance\ from\ this\ Account\ as\ a\ String\r\n\ Ex.\ "Name,\ 001,\ $10.00"\r\n\ \r\n\ @return\ \ The\ string\ containing\ the\ name,\ id,\ and\ balance\ from\ this\ Account\r\n
+comment6.params=
+comment6.target=java.lang.String\ returnID()
+comment6.text=\r\n\ returnID\ will\ return\ id\ from\ this\ Account\ as\ a\ String.\r\n\ This\ is\ used\ by\ Bank\ in\ it's\ search\ method.\r\n\ \r\n\ @return\ \ id\ from\ this\ account.\r\n
+comment7.params=other
+comment7.target=boolean\ equals(Account)
+comment7.text=\r\n\ equals\ compares\ 2\ Accounts\ and\ checks\ if\ their\ instance\ variables\ are\ the\ same.\r\n\ \r\n\ @param\ \ Account\ other\ \ \ \ The\ Account\ that\ is\ being\ compared\ to\ this\ account\r\n\ @return\ true\ if\ this\ account\ is\ the\ same\ as\ the\ other\ account\r\n
+numComments=8
